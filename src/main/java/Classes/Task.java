@@ -7,6 +7,7 @@ public class Task {
     private String libelle;
     private Date dateRéalisation;
     private double prixHeure;
+    private String supervisor ;
 
     public Task(int id, String libelle, Date dateRéalisation, double prixHeure) {
         this.id = id;
